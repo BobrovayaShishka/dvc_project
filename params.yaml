@@ -1,0 +1,10 @@
+clean_params:
+  drop_na: true
+
+feature_params:
+  scale_features: true
+
+train_params:
+  model_type: "random_forest"
+  test_size: 0.25
+  random_state: 42
